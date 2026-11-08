@@ -15,7 +15,8 @@ export async function inOrder(tasks) {
         const result = await task();
         results.push(result);
     }
-    return results;  
+    return results; 
+     
 }
 
 // The same, but start them ALL AT ONCE and wait for all of them.
